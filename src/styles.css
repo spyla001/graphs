@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+.grid line {
+  stroke:  lightgrey;
+  stroke-opacity: 0.6;
+  shape-rendering: crispEdges;
+  stroke-dasharray: 3,3;
+}
+
+.grid path {
+  stroke: lightgrey;
+  stroke-opacity: 0.6;
+  shape-rendering: crispEdges;
+  stroke-dasharray: 3,3;
+}
+.grid path {
+  stroke-width: 0;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 3px;
+  background: darkgrey;
+  border-radius: 50%;
+}
+
+/*.d3-tip:after {*/
+/*  box-sizing: border-box;*/
+/*  display: inline;*/
+/*  font-size: 10px;*/
+/*  width: 100%;*/
+/*  line-height: 1;*/
+/*  color: darkgrey;*/
+/*  content: "\25BC";*/
+/*  position: absolute;*/
+/*  text-align: center;*/
+/*}*/
+
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+
+.pietip {
+  background: #eee;
+  box-shadow: 0 0 5px #999999;
+  color: #333;
+  display: none;
+  font-size: 12px;
+  left: 130px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  top: 95px;
+  width: 80px;
+  z-index: 10;
+}
+body {
+  font-family: Sans-serif;
+  font-size: 11px;
+  background-color: olivedrab;
+}
+
+

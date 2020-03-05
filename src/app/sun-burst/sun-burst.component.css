@@ -1,0 +1,18 @@
+:host ::ng-deep .slice {
+  cursor: pointer;
+}
+
+:host ::ng-deep .slice .main-arc {
+  stroke: #fff;
+  stroke-width: 0px;
+}
+
+:host ::ng-deep .slice .hidden-arc {
+  fill: none;
+}
+
+:host ::ng-deep .slice text {
+  pointer-events: none;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
